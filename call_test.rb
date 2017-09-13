@@ -43,5 +43,19 @@ class CallTest < Minitest::Test
       assert_equal false, @call.call_12321
       
    end
+
+
+   def test_call_8547810845_call  
+      
+      assert_equal true, @call.call_8547810845_call 
+
+   end 
+
+
+   def test_call_call_8547810845  
+      
+      assert_equal true, @call.call_8547810845_call 
+      
+   end
    
 end
